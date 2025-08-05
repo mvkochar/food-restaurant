@@ -1,0 +1,66 @@
+.home-main {
+    margin-top: -101px;
+    padding-top: 206.01px;
+    padding-bottom: 206.51px;
+    background: url("/public/images/home-main-bg.png") no-repeat;
+   
+    text-align: center;
+}
+
+.home-main-union {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.home-main-above {
+    margin-top: 16px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 120%;
+    color: rgba(249, 230, 142, 1);
+}
+
+.home-main-desc {
+    width: 842px;
+    margin: 16px auto 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(237, 237, 237, 1);
+}
+
+.home-main-title {
+    width: 798px;
+    margin: 16px auto 0;
+    font-size: 92px;
+    line-height: 105%;
+    color: rgba(253, 253, 253, 1);
+}
+
+.home-main-actions {
+    width: fit-content;
+    margin: 32px auto 0;
+    gap: 8px;
+}
+
+.home-main-menu,
+.home-main-reserve {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 22px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.home-main-menu {
+    background-color: rgba(1, 6, 20, 1);
+    color: rgba(237, 237, 237, 1);
+}
+
+.home-main-reserve {
+    background-color: rgba(244, 199, 63, 1);
+    color: rgba(21, 21, 21, 1);
+}
