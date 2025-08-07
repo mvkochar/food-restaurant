@@ -72,7 +72,9 @@
 }
 
 .home-about-title,
-.home-menu-title {
+.home-menu-title,
+.home-testimonial-title,
+.home-contact-title {
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     font-size: 48px;
@@ -137,7 +139,7 @@
     margin-left: 100px;
     flex-wrap: wrap;
     column-gap: 25px;
-    row-gap: 10px;   
+    row-gap: 10px;
 }
 
 .home-menu-link {
@@ -152,4 +154,243 @@
     font-size: 18px;
     text-align: center;
     color: #151515;
+}
+
+.home-testimonial {
+    margin-top: 200px;
+}
+
+.home-testimonial-desc {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #EDEDED;
+}
+
+.home-testimonial-content {
+    margin-top: 56px;
+    margin-left: 100px;
+    gap: 24px;
+}
+
+.home-testimonial-item {
+    width: 397.33px;
+    padding-top: 264px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+
+    .testimonial-item-info {
+        padding: 20px;
+        background-color: #FDFDFD;
+        border-radius: 24px;
+    }
+
+    .testimonial-item-quote {
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--black);
+    }
+
+    .testimonial-item-author {
+        margin-top: 16px;
+
+        .author-name {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: var(--black);
+        }
+
+        .author-pos {
+            margin-top: 4px;
+            font-size: 12px;
+            line-height: 16px;
+            color: #575757;
+        }
+    }
+}
+
+.home-testimonial-item:nth-child(1) {
+    background: url("/images/testimonial1.png") no-repeat;
+}
+
+.home-testimonial-item:nth-child(2) {
+    background: url("/images/testimonial2.png") no-repeat;
+}
+
+.home-testimonial-item:nth-child(3) {
+    background: url("/images/testimonial3.png") no-repeat;
+}
+
+.home-testimonial-navigation {
+    margin-top: 56px;
+    margin-left: 100px;
+    gap: 120px;
+}
+
+.home-testimonial-actions {
+    gap: 16px;
+
+    .action-btn {
+        display: flex;
+        width: 56px;
+        height: 56px;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+}
+
+.home-contact {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 56px;
+}
+
+.home-contact-fm {
+    width: 600px;
+    height: 653px;
+    padding: 24px;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #010614;
+    box-shadow: 0px 12px 16px -4px rgba(0, 0, 0, 0.08), 0px 4px 6px -2px rgba(0, 0, 0, 0.03);
+    border-radius: 24px;
+
+    .contact-fm-title {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 115%;
+        color: #FDFDFD;
+    }
+
+    .input-field {
+        width: 552px;
+        padding-top: 6px;
+        padding-left: 12px;
+        border: 1px solid #444444;
+        border-radius: 12px;
+    }
+
+    label {
+        font-size: 12px;
+        line-height: 16px;
+        color: #D7D7D7;
+    }
+
+    input {
+        width: 100%;
+        padding-bottom: 6px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FDFDFD;
+
+        &::placeholder {
+            color: #FDFDFD;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        padding-bottom: 126px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        resize: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FDFDFD;
+
+        &::placeholder {
+            color: #FDFDFD;
+        }
+
+    }
+
+    .check-bl {
+        gap: 12px;
+
+        input {
+            display: block;
+            width: 24px;
+            height: 24px;
+        }
+
+        label {
+            display: block;
+            width: 516px;
+            font-size: 16px;
+            line-height: 24px;
+
+            a {
+                text-decoration: underline;
+                color: #D17C0E;
+            }
+        }
+    }
+
+    button {
+        display: block;
+        width: 552px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #F4C73F;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        color: #151515;
+    }
+}
+
+.home-contact-desc {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EDEDED;
+}
+
+.home-contact-info {
+    margin-top: 56px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 32px;
+
+    .contact-info-title {
+        margin-bottom: 16px;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 115%;
+        color: #FDFDFD;
+    }
+
+    .contact-info-box {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .contact-info-item  {
+        gap: 12px;
+
+        .info-item-desc {
+            width: 240px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FDFDFD;
+        }
+    }
 }
