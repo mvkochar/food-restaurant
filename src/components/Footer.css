@@ -1,0 +1,92 @@
+.footer {
+    margin-top: 56px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-title {
+    width: 510px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    color: var(--white);
+}
+
+.footer-view {
+    display: block;
+    width: 152px;
+    margin-top: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    background: #F4C73F url("/images/arrow1.png") no-repeat 114px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #151515;
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.footer-nav-item {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #575757;
+
+    a {
+        color: #575757;
+
+        &:hover {
+            color: #F4C73F;
+        }
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.footer-connect-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #D7D7D7;
+}
+
+.footer-connect-box {
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.footer-info {
+    margin-top: 90px;
+    margin-bottom: 14px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #242424;
+    font-size: 16px;
+    color: #575757;
+}
+
+.footer-links {
+    gap: 8px;
+
+    a {
+        color: #575757;
+
+        &:hover {
+            color: #F4C73F;
+        }
+    }
+
+    .divider {
+        width: 5.25px;
+        height: 5.25px;
+        background-color: #575757;
+        border-radius: 100%;
+    }
+}

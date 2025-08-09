@@ -268,7 +268,7 @@ const Home = () => {
         </div>
         <div className="home-faq-content d-f">
           {
-            FaqItemsList.map((faq)=> {
+            FaqItemsList.map((faq) => {
               return (
                 <FaqItem
                   key={`faq${faq.id}`}
@@ -278,6 +278,43 @@ const Home = () => {
             })
           }
         </div>
+      </section>
+      <section className='home-blog'>
+        <h2 className="home-blog-title">From Our Kitchen to Your Screen</h2>
+        <p className="home-blog-desc">
+          Dive into recipes, behind the scenes, and tasty tales.
+        </p>
+        <div className="home-blog-box d-f">
+          <div className="home-blog-card">
+            <div><img src="/images/blog1.png" alt="blog1" /></div>
+            <p className="blog-card-date">April 22, 2025</p>
+            <h3 className="blog-card-title">Hosting Events at the Restaurant: What You Need to Know</h3>
+            <p className="blog-card-desc">
+              From intimate dinners to corporate gatherings, the Restaurant
+              offers exclusive space and services for various types of events.
+              Discover tips and important information before making a reservation.
+            </p>
+          </div>
+          <div className="home-blog-card">
+            <div><img src="/images/blog2.png" alt="blog2" /></div>
+            <p className="blog-card-date">April 17, 2025</p>
+            <h3 className="blog-card-title">How We Support Local Farmers and Ingredients</h3>
+            <p className="blog-card-desc">
+              We take pride in using local ingredients as part of our commitment to sustainability and quality.
+              Learn how our collaboration with local farmers positively impacts flavor, community, and the environment.
+            </p>
+          </div>
+          <div className="home-blog-card">
+            <div><img src="/images/blog3.png" alt="blog3" /></div>
+            <p className="blog-card-date">April 18, 2025</p>
+            <h3 className="blog-card-title">Tips for Choosing the Right Dinner Menu at the Restaurant</h3>
+            <p className="blog-card-desc">
+              Confused about what to order when visiting the Restaurant? This article 
+              will help you choose the best dishes based on your taste, mood, or even the weather!
+            </p>
+          </div>
+        </div>
+        <a href="" className="home-blog-view">View All</a>
       </section>
     </>
   )

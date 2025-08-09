@@ -383,7 +383,7 @@
         gap: 16px;
     }
 
-    .contact-info-item  {
+    .contact-info-item {
         gap: 12px;
 
         .info-item-desc {
@@ -412,7 +412,7 @@
     background-color: #010614;
     border-radius: 16px;
     color: #FDFDFD;
-} 
+}
 
 .home-map-title {
     font-weight: 500;
@@ -424,7 +424,7 @@
     margin-top: 8px;
     flex-direction: column;
     gap: 8px;
-} 
+}
 
 .home-map-info .map-info-item {
     gap: 8px;
@@ -440,7 +440,7 @@
 
     .rating-num {
         font-size: 12px;
-        
+
     }
 
     .rating-box {
@@ -499,4 +499,84 @@
     mask-repeat: 100px;
     flex-direction: column;
     gap: 16px;
+}
+
+.home-blog {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.home-blog-title {
+    font-family: "Sneaky Times";
+    font-size: 56px;
+    line-height: 120%;
+    color: #FDFDFD;
+    letter-spacing: 1px;
+}
+
+.home-blog-desc {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #D7D7D7;
+}
+
+.home-blog-box {
+    margin-top: 56px;
+    gap: 24px;
+}
+
+.home-blog-card {
+    width: 397.33px;
+    padding: 10px;
+    background-color: #010614;
+    border: 1px solid #242424;
+    border-radius: 20px;
+
+    .blog-card-date {
+        margin-top: 14px;
+        margin-left: 14px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FDFDFD;
+    }
+
+    .blog-card-title {
+        margin-top: 8px;
+        margin-left: 14px;
+        margin-right: 14px;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 115%;
+        color: #FDFDFD;
+    }
+
+    .blog-card-desc {
+        height: 44px;
+        overflow: hidden;
+        margin-top: 16px;
+        margin-left: 14px;
+        margin-right: 14px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #EDEDED;
+    }
+}
+
+.home-blog-view {
+    display: block;
+    width: 112px;
+    margin-top: 56px;
+    margin-left: 564px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #F4C73F;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #151515;
 }
