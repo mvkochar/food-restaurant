@@ -1,0 +1,70 @@
+.menu-main {
+    margin-top: -101px;
+    padding-top: 204px;
+    padding-bottom: 141px;
+    background: url("/images/menu-main-bg.png") no-repeat;
+    text-align: center;
+}
+
+.menu-main-title {
+    width: 720px;
+    margin: 16px auto 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 115%;
+    color: #FDFDFD;
+}
+
+.menu-main-desc {
+    width: 720px;
+    margin: 16px auto 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EDEDED;
+}
+
+.menu-content {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu-content-title {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    color: #FDFDFD;
+}
+
+.menu-content-categories {
+    width: fit-content;
+    height: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+
+    .categories-btn {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        padding: 8px 14px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-family: "Lora", serif;
+        font-size: 14px;
+        color: #D7D7D7;
+    }
+    
+    .categories-btn__active {
+        background-color: #010614;
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        color: #FDFDFD;
+    }
+}
