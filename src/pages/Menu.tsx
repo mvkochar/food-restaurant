@@ -1,3 +1,5 @@
+import { ProductsItem, Testimonial } from '../components'
+import ProductsList from '../db/ProductsList'
 import './css/Menu.css'
 
 const Menu = () => {
@@ -23,7 +25,21 @@ const Menu = () => {
                         <button className='categories-btn'>Beverage</button>
                     </div>
                 </div>
+                <div className="menu-content-box d-f">
+                    {
+                        ProductsList.map((product)=> {
+                            return (
+                                <ProductsItem
+                                  key={`priduct${product.id}`}
+                                  {...product}
+                                />
+                            )
+                        })
+                    }
+                </div>
             </section>
+            <Testimonial/>
+            <div style={{marginBottom: "100px"}}></div>
         </>
     )
 }

@@ -61,6 +61,62 @@ const ProductsList: TProduct[] = [
         price: "6",
         description: "Crisp romaine lettuce tossed with garlic croutons, parmesan shavings, and our signature Caesar dressing made in-house."
     },
+
+    {
+        id: 7,
+        image: '/images/products/7.png',
+        category: "Appetizer",
+        title: "Mini Crab Cakes",
+        price: "11",
+        description: "Indulge in our exquisite golden-seared crab cakes, perfectly paired with a zesty lemon aioli and a hint of fresh dill."
+    },
+
+    {
+        id: 8,
+        image: '/images/products/8.png',
+        category: "Appetizer",
+        title: "Caprese Skewers",
+        price: "7",
+        description: "Delicious cherry tomatoes paired with creamy mozzarella balls and fresh basil leaves, all beautifully arranged on skewers."
+    },
+
+    {
+        id: 9,
+        image: '/images/products/9.png',
+        category: "Main Course",
+        title: "Buffalo Wings",
+        price: "10",
+        description: "Crispy chicken wings tossed in our spicy buffalo sauce, served with celery sticks and blue cheese dressing."
+    },
+
+    {
+        id: 10,
+        image: '/images/products/10.png',
+        category: "Main Course",
+        title: "Seared Salmon Fillet",
+        price: "17",
+        description: "Pan-seared salmon served over mashed potatoes with lemon butter sauce and seasonal vegetables."
+    },
+
+    {
+        id: 11,
+        image: '/images/products/11.png',
+        category: "Main Course",
+        title: "Herb Roasted Chicken",
+        price: "15",
+        description: "Indulge in our exquisite slow-roasted chicken, perfectly marinated with aromatic garlic and fragrant rosemary."
+    },
+
+    {
+        id: 12,
+        image: '/images/products/12.png',
+        category: "Main Course",
+        title: "Wild Mushroom Risotto",
+        price: "13",
+        description: "Arborio rice slow-cooked with porcini mushrooms, parmesan, and a splash of white wine."
+    },
+
+
 ]
 
 export default ProductsList

@@ -27,7 +27,7 @@
 .menu-content {
     margin-top: 100px;
     margin-left: 100px;
-    margin-right: 100px;
+   margin-right: 100px;
 }
 
 .menu-content-title {
@@ -66,5 +66,21 @@
         border-radius: 20px;
         font-weight: 600;
         color: #FDFDFD;
+    }
+}
+
+.menu-content-box {
+    margin-top: 56px;
+   
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+
+    >div {
+        width: 600px;
+        overflow: hidden;
+        h3 {
+            font-size: 18px;
+        }
     }
 }
