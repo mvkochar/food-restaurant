@@ -1,0 +1,25 @@
+.news-main {
+    margin-top: -101px;
+    padding-top: 190.76px;
+    padding-bottom: 127.76px;
+    background: url("/public/images/news-main-bg.png") no-repeat;
+    text-align: center;
+}
+
+.news-main-title {
+    width: 540px;
+    margin: 16px auto 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 115%;
+    color: #FDFDFD;
+}
+
+.news-main-desc {
+    width: 540px;
+    margin: 16px auto 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EDEDED;
+}
