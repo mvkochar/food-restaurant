@@ -4,5 +4,10 @@ import Main from "./Main";
 import ProductsItem from "./ProductsItem/ProductsItem";
 import FaqItem from "./FaqItem/FaqItem";
 import Testimonial from "./Testimonial";
+import ContactBlock from "./ContactBlock";
+import MapBlock from "./MapBlock";
 
-export {Header, Main, Footer, ProductsItem, FaqItem, Testimonial}
+export {
+    Header, Main, Footer, ProductsItem, FaqItem,
+    Testimonial, ContactBlock, MapBlock
+}
