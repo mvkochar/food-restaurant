@@ -2,7 +2,7 @@
     margin-top: -101px;
     padding-top: 190.76px;
     padding-bottom: 127.76px;
-    background: url("/public/images/news-main-bg.png") no-repeat;
+    background: url("/images/news-main-bg.png") no-repeat;
     text-align: center;
 }
 
@@ -22,4 +22,152 @@
     font-size: 18px;
     line-height: 26px;
     color: #EDEDED;
+}
+
+.news-heading {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.news-heading-title {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    color: #FDFDFD;
+}
+
+.news-heading-desc {
+    width: 709px;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #D7D7D7;
+}
+
+.news-heading-fm {
+    width: 362px;
+    height: fit-content;
+    padding-left: 16px;
+    gap: 8px;
+    background-color: #010614;
+    border: 1px solid #242424;
+    border-radius: 24px;
+    align-self: flex-end;
+
+    input {
+        display: block;
+        width: 80%;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        color: #FDFDFD;
+
+        &::placeholder {
+            color: #FDFDFD;
+        }
+    }
+}
+
+.news-content {
+    margin-top: 56px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.news-more {
+    display: block;
+    width: 135px;
+    margin: 56px auto 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #F4C73F;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #151515;
+}
+
+.news-cta {
+    margin-top: 100px;
+    margin-bottom: 56px;
+    padding-top: 130.5px;
+    padding-bottom: 130.5px;
+    background: url("/images/cta-bg.png") no-repeat;
+}
+
+.news-cta-title {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 115%;
+    text-align: center;
+    color: var(--white);
+}
+
+.news-cta-desc {
+    width: 670px;
+    margin: 24px auto 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+}
+
+.news-cta-fm {
+    width: 618px;
+    margin: 40px auto 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #010614;
+    border: 1px solid #242424;
+    border-radius: 30px;
+
+    input,
+    button {
+        display: block;
+    }
+
+    input {
+        width: 70%;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+        background: transparent url("/images/mail.svg") no-repeat;
+        background-position: 0;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FDFDFD;
+
+        &::placeholder {
+            color: #FDFDFD;
+        }
+    }
+
+    button {
+        width: 118px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        background-color: #F4C73F;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+        font-family: "Lora", serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #151515;
+    }
 }

@@ -6,8 +6,9 @@ import FaqItem from "./FaqItem/FaqItem";
 import Testimonial from "./Testimonial";
 import ContactBlock from "./ContactBlock";
 import MapBlock from "./MapBlock";
+import NewsItem from "./NewsItem/NewsItem";
 
 export {
     Header, Main, Footer, ProductsItem, FaqItem,
-    Testimonial, ContactBlock, MapBlock
+    Testimonial, ContactBlock, MapBlock, NewsItem
 }
