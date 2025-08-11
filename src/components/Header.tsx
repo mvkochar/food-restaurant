@@ -14,7 +14,7 @@ const Header = () => {
                 <li className="header-nav-item"><Link to="/news">News</Link></li>
             </ul>
         </nav>
-        <a href="" className="header-reserve">Reserve a Seat</a>
+        <Link to="/reservation" className="header-reserve">Reserve a Seat</Link>
     </header>
   )
 }
