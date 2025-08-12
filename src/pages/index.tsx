@@ -3,5 +3,6 @@ import Menu from "./Menu";
 import Contact from "./Contact";
 import News from "./News";
 import Reservation from "./Reservation";
+import Story from "./Story";
 
-export {Home, Menu, Contact, News, Reservation}
+export {Home, Menu, Contact, News, Reservation, Story}
