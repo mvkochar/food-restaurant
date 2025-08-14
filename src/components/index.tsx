@@ -7,8 +7,10 @@ import Testimonial from "./Testimonial";
 import ContactBlock from "./ContactBlock";
 import MapBlock from "./MapBlock";
 import NewsItem from "./NewsItem/NewsItem";
+import TeamMember from "./TeamMember/TeamMember";
 
 export {
     Header, Main, Footer, ProductsItem, FaqItem,
-    Testimonial, ContactBlock, MapBlock, NewsItem
+    Testimonial, ContactBlock, MapBlock, NewsItem,
+    TeamMember
 }

@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+import { TeamMember } from '../components'
+import TeamMembersList from '../db/TeamMembersList'
 import './css/Story.css'
 
 const Story = () => {
@@ -33,21 +36,55 @@ const Story = () => {
                             <dt>10+ years</dt>
                             <dd>of Culinary Excellence</dd>
                         </dl>
-                         <dl>
+                        <dl>
                             <dt>5 awards</dt>
                             <dd>Winning Chefs</dd>
                         </dl>
-                         <dl>
+                        <dl>
                             <dt>4.9/5</dt>
                             <dd>Customer Rating on Average</dd>
                         </dl>
                     </div>
                     <div className="story-about-images d-f">
                         <div><img src="/images/home-about1.png" alt="story-about1" /></div>
-                         <div><img src="/images/home-about2.png" alt="story-about2" /></div>
+                        <div><img src="/images/home-about2.png" alt="story-about2" /></div>
                     </div>
                 </div>
-
+            </section>
+            <section className='story-team'>
+                <div className="d-f jc-sb">
+                    <h2 className="story-team-title">
+                        Meet the Soul Behind Our Kitchen
+                    </h2>
+                    <p className="story-team-desc">
+                        Leading our kitchen is Chef Julien Moreau,
+                        whose expertise and vision elevate every dish
+                        on our menu. With over 15 years of experience
+                        in fine dining, Chef Julien draws inspiration
+                        from French countryside traditions while embracing
+                        modern culinary artistry.
+                    </p>
+                </div>
+                <div className="story-team-box d-f">
+                    {
+                        TeamMembersList.map((member) => {
+                            return (
+                                <TeamMember
+                                    key={`teamMember${member.id}`}
+                                    {...member}
+                                />
+                            )
+                        })
+                    }
+                </div>
+            </section>
+            <section className="story-cta">
+                  <h2 className="story-cta-title">Let's Create Your Next Culinary Memory</h2>
+                  <p className="story-cta-desc">
+                    Have a question, a special request, or just want to say hello? 
+                    Our team would love to hear from you.
+                 </p>
+                 <Link to="/contact" className="story-cta-link">Contact Us</Link>  
             </section>
         </>
     )

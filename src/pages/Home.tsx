@@ -2,6 +2,7 @@ import { ContactBlock, FaqItem, MapBlock, ProductsItem, Testimonial } from '../c
 import ProductsList from '../db/ProductsList'
 import './css/Home.css'
 import FaqItemsList from '../db/FaqItemsList';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -15,12 +16,11 @@ const Home = () => {
           Join us for an unforgettable dining experience where every bite tells a story.
         </p>
         <div className="home-main-actions d-f">
-          <a href="" className="home-main-menu">Our Menu</a>
-          <a href="" className="home-main-reserve">Reserve a Seat</a>
+          <Link to="/menu" className="home-main-menu">Our Menu</Link>
+          <Link to="/reservation" className="home-main-reserve">Reserve a Seat</Link>
         </div>
       </main>
       <section className='home-about d-f'>
-
         <h2 className="home-about-title">Our Company</h2>
         <div>
           <div className="home-about-text d-f">
@@ -75,7 +75,7 @@ const Home = () => {
             })
           }
         </div>
-        <a href="" className="home-menu-link">Explore Our Menu</a>
+        <Link to="/menu" className="home-menu-link">Explore Our Menu</Link>
       </section>
       <Testimonial/>
       <ContactBlock/> 
@@ -137,7 +137,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <a href="" className="home-blog-view">View All</a>
+        <Link to="/news" className="home-blog-view">View All</Link>
       </section>
     </>
   )
