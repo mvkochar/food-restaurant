@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="footer-info d-f jc-sb">
         <p>&copy;Platieu 2025. All rights reserved.</p>
         <div className="footer-links d-f align-center">
-          <a href="" className="d-b">Privacy Policy</a>
+          <Link to="/policy" className="d-b">Privacy Policy</Link>
           <div className="divider"></div>
           <a href="" className="d-b">Terms of Services</a>
         </div>

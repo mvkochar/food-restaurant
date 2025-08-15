@@ -1,0 +1,85 @@
+.policy-main {
+    margin-top: 100px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #242424;
+}
+
+.policy-main-title {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 115%;
+    text-align: center;
+    color: #FDFDFD;
+}
+
+.policy-main-desc {
+    width: 990px;
+    margin: 20px auto 0;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #D7D7D7;
+}
+
+.policy-main-info {
+    width: fit-content;
+    margin: 20px auto 0;
+    gap: 12px;
+    font-size: 16px;
+    color: #D7D7D7;
+
+    .ellipse {
+        width: 8px;
+        height: 8px;
+        background-color: #D7D7D7;
+        border-radius: 100%;
+    }
+}
+
+.policy-content {
+    margin-top: 56px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.policy-bl-title {
+    margin-bottom: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 115%;
+    color: #FDFDFD;
+}
+
+.policy-bl-desc,
+.policy-bl-list li,
+.policy-bl-sublist li {
+    font-size: 18px;
+    line-height: 26px;
+    color: #D7D7D7;
+}
+
+.policy-bl-list {
+    list-style-type: lower-latin;
+    margin-left: 20px;
+}
+
+.policy-bl-sublist {
+    list-style-type: disc;
+    margin-left: 38px;
+}
+
+.policy-content>div:nth-child(1) {
+    .policy-bl-sublist {
+        margin-left: 18px;
+    }
+}
+
+.policy-bl-mail,
+.policy-bl-phone {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #FDFDFD;
+}
