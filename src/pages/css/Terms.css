@@ -1,4 +1,4 @@
-.policy-main {
+.terms-main {
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
@@ -6,7 +6,7 @@
     border-bottom: 1px solid #242424;
 }
 
-.policy-main-title {
+.terms-main-title {
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     font-size: 58px;
@@ -15,7 +15,7 @@
     color: #FDFDFD;
 }
 
-.policy-main-desc {
+.terms-main-desc {
     width: 990px;
     margin: 20px auto 0;
     font-size: 18px;
@@ -24,7 +24,7 @@
     color: #D7D7D7;
 }
 
-.policy-main-info {
+.terms-main-info {
     width: fit-content;
     margin: 20px auto 0;
     gap: 12px;
@@ -39,7 +39,7 @@
     }
 }
 
-.policy-content {
+.terms-content {
     margin-top: 56px;
     margin-bottom: 100px;
     margin-left: 100px;
@@ -47,7 +47,7 @@
     gap: 32px;
 }
 
-.policy-bl-title {
+.terms-bl-title {
     margin-bottom: 20px;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
@@ -56,32 +56,26 @@
     color: #FDFDFD;
 }
 
-.policy-bl-desc,
-.policy-bl-list li,
-.policy-bl-sublist li {
+.terms-bl-desc,
+.terms-bl-list li,
+.terms-bl-sublist li {
     font-size: 18px;
     line-height: 26px;
     color: #D7D7D7;
 }
 
-.policy-bl-list {
+.terms-bl-list {
     list-style-type: lower-latin;
     margin-left: 20px;
 }
 
-.policy-bl-sublist {
+.terms-bl-sublist {
     list-style-type: disc;
     margin-left: 38px;
 }
 
-.policy-content>div:nth-child(1) {
-    .policy-bl-sublist {
-        margin-left: 18px;
-    }
-}
-
-.policy-bl-mail,
-.policy-bl-phone {
+.terms-bl-mail,
+.terms-bl-address {
     font-weight: 700;
     text-decoration: underline;
     color: #FDFDFD;

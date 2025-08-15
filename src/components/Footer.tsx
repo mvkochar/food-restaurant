@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="footer-links d-f align-center">
           <Link to="/policy" className="d-b">Privacy Policy</Link>
           <div className="divider"></div>
-          <a href="" className="d-b">Terms of Services</a>
+          <Link to="/terms" className="d-b">Terms of Services</Link>
         </div>
       </div>
       <div><img src="/images/footer-logo.svg" alt="footer-logo" /></div>
